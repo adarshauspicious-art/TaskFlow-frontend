@@ -97,9 +97,7 @@ export default function Dashboard() {
       <div className="max-w-6xl mx-auto px-6 py-10">
         {/* Header */}
         <div className="mb-10">
-          <h1 className="text-5xl font-bold mb-3">
-            Welcome Back 👋 {user?.name || "User"}
-          </h1>
+          <h1 className="text-5xl font-bold mb-3">Welcome Back 👋  </h1>
 
           <p className="text-zinc-400 text-lg">
             Stay focused. Stay productive.
