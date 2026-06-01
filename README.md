@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📝 TaskFlow - Modern Todo App
 
-## Getting Started
+🚀 TaskFlow – Modern Full-Stack Todo App
 
-First, run the development server:
+TaskFlow is a sleek, full-stack productivity application built with Next.js that helps users manage daily tasks with speed, simplicity, and a beautiful UI experience.
+
+---
+
+## 📸 Preview
+
+![TaskFlow Preview](public/images/TaskFlow.png)
+
+> Replace the above image link with your actual project screenshot (You can upload on GitHub or use Vercel deploy screenshot)
+
+---
+
+## ✨ Features
+
+✨ Features : 
+🔐 Secure Authentication (Login / Register)
+📋 Create, Read, Update & Delete Todos
+✅ Mark tasks as completed / pending
+📊 Interactive dashboard with task insights
+👤 User profile displayed in navbar
+📱 Fully responsive design (mobile + desktop)
+⚡ Lightning-fast performance with Next.js App Router
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js (App Router)
+- **Styling:** Tailwind CSS
+- **Backend:** Node.js + Express (if used)
+- **Database:** MongoDB
+- **Auth:** JWT Authentication
+- **Notifications:** React Hot Toast
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/adarshauspicious-art/TaskFlow-frontend.git
+cd todo-frontend
