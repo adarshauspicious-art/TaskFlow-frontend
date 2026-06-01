@@ -118,22 +118,7 @@ export default function Dashboard() {
           </div>
 
         </div>
-        {/* Small profile card */}
-        <div className="bg-white/5 border border-white/10 backdrop-blur-2xl rounded-3xl p-6 min-w-[260px] shadow-2xl">
-          <p className="text-slate-400 mb-2">Logged in as</p>
-
-          <h2 className="text-2xl font-bold">
-            {user?.name || "User"}
-          </h2>
-
-          <div className="mt-5 flex items-center gap-3">
-            <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse" />
-
-            <span className="text-green-400 font-medium">
-              Active Session
-            </span>
-          </div>
-        </div>
+        
       </div>
 
       {/* Stats Cards */}
