@@ -14,7 +14,7 @@ export default function TodoCard({
           ? "bg-green-950 border-green-800 opacity-80"
           : "bg-zinc-900 border-zinc-800"
       }`}
-    >
+    >    
       <div className="flex items-start justify-between">
         <div>
           <h3
