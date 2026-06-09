@@ -10,4 +10,4 @@ export const toggleTodo = (id) =>
   API.patch(`/todos/${id}`);
 
 export const deleteTodo = (id) =>
-  API.delete(`/todos/${id}`);
+  API.delete(`/todos/${id}`);    
